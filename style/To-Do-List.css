@@ -1,0 +1,29 @@
+body{
+    font-family: Arial;
+}
+.todogrid,.todoipgrid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.todoipgrid{
+    margin-bottom: 10px;
+}
+.add{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+.delete{
+    background-color: red;
+    color: white;
+    border: none;
+    padding-bottom:10px;
+    padding-top:10px;
+    cursor: pointer;
+}
